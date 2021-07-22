@@ -1,0 +1,68 @@
+
+.App {
+  text-align: center;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  
+
+}
+.back{
+  background-color:grey;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: underline;
+}
+.topDesign{
+    background-color: #ccc;
+    width: 100vw;
+    height: 48px;
+    margin-bottom: 24px;
+
+}
+.back_button img {
+  width: 50px;
+  height: 50px;
+  margin-top: 0px;
+  margin-left: 210px;
+  margin-right: 15px;
+ 
+}
+#style{
+    text-align: left;
+    color:black;
+}
+
+.back_button {
+  display: inline-flex;
+  margin-left: -200px;
+  margin-bottom: 5px;  
+}
+
+
+.signUp{
+  display: grid;
+
+}
+td{
+ border:10px solid green;
+}
+  
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    font-weight: bold;
+    /* animation: App-logo-spin infinite 20s linear; */
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

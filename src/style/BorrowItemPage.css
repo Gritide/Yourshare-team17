@@ -1,0 +1,41 @@
+
+#ArrowLeftCircle
+{
+    height: auto; 
+    width: auto; 
+    max-width: 50px; 
+    max-height: 50px;
+}
+#table
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:  10%;
+    margin-top: 48px;
+    
+}
+#style
+{
+    text-align: left;
+    color:black;
+}
+
+#icon
+{
+    margin-top: -200px;
+    margin-right: -50px;
+}
+#bottomButtons{
+    margin-left: auto; 
+    margin-right: 0;
+    float: right
+}
+#linkButNot
+{
+    text-decoration: none;
+    color: #000;
+    margin-right: 100px;
+}
+.requestBtn{
+    margin-left:10px;
+}

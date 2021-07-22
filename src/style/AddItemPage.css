@@ -1,0 +1,62 @@
+
+body {
+  display: flex;
+  min-height: 0vh;
+  justify-content: left;
+  align-items: center;
+}
+
+.form-container {
+  width: 440px;
+  margin: auto;
+  padding: 0px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 20px;
+  border: 0;
+}
+
+
+
+input {
+  background: #f2f2f2;
+}
+
+textarea{
+  background: #f2f2f2;
+  height: 130px;
+
+}
+
+
+button {
+  background: grey;
+  color: white;
+  cursor: pointer;
+  float: right;
+}
+
+#cancel-button{
+float: right;
+margin: 10px;
+}
+
+
+
+
+
+
+
+
+
